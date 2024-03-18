@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.light-color {
+    color: #AAAFC8;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+.container {
+    background-color: #424D84;
+    width: 27rem;
+    height: 24rem;
+    border-radius: .3rem;
+    overflow: hidden;
+}
+
+.container__chart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #AAAFC8;
+    gap: 1rem;
+}
+
+.wrapper {
+    display: flex;
+    height: 12rem;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: .5rem;
+    position: relative;
+}
+
+.month {
+    margin-top: 10rem;
+}
+
+.data {
+    width: 1rem;
+    height: 2rem;
+    background-color: #AAAFC8;
+    border-radius: .2rem;
+    position: absolute;
+}
+
+.june {
+    height: 6rem;
+    top: 3rem;
+}
+
+.july {
+    height: 8rem;
+    top: 1rem;
+}
+
+.august {
+    height: 4rem;
+    top: 5rem;
+}
+
+.september {
+    height: 2rem;
+    top: 7rem;
+}
+
+.october {
+    height: 5rem;
+    top: 4rem;
+}
+
+.november {
+    height: 6rem;
+    top: 3rem;
+    background-color: #3398DC;
+}
+
+.december {
+    height: 2rem;
+    top: 7rem;
+}
+
+.january {
+    height: 8rem;
+    top: 1rem;
+}
+
+.february {
+    height: 5.5rem;
+    top: 3.5rem;
+}
+
+.march {
+    height: 6.5rem;
+    top: 2.5rem;
+}
+
+.statistics {
+    display: flex;
+    gap: 2.5rem;
+    color: #AAAFC8;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.statistics__chart-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-right: 1rem solid #2bcd71;
+    border-left: 1rem solid #f39c13;
+    border-top: 1rem solid #9b58b6;
+    border-bottom: 1rem solid #3398dc;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.statistics__text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+}
